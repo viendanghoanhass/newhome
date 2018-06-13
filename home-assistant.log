@@ -1,0 +1,11 @@
+2018-06-13 14:20:42 ERROR (Thread-2) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:20:56 WARNING (MainThread) [homeassistant.setup] Setup of config is taking over 10 seconds.
+2018-06-13 14:21:25 WARNING (Thread-16) [netdisco.ssdp] Error fetching description at http://192.168.0.1:49152/InternetGatewayDevice.xml
+2018-06-13 14:23:36 ERROR (Thread-6) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:25:31 ERROR (Thread-10) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:25:48 ERROR (Thread-3) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:26:02 ERROR (Thread-17) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:28:04 ERROR (Thread-9) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:28:18 ERROR (Thread-10) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:28:42 ERROR (Thread-5) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-13 14:28:59 ERROR (Thread-21) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.

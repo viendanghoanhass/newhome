@@ -1,0 +1,14 @@
+sensor.dark_sky_apparent_temperature:
+  friendly_name: Nhiệt độ cảm nhận
+sensor.dark_sky_humidity:
+  friendly_name: Độ ẩm
+sensor.dark_sky_pressure:
+  friendly_name: Áp suất
+sensor.dark_sky_temperature:
+  friendly_name: 'Nhiệt độ '
+sensor.dark_sky_uv_index:
+  friendly_name: 'Chỉ số UV '
+sun.sun:
+  friendly_name: Mặt trời
+sensor.dark_sky_nearest_storm_distance:
+  friendly_name: Cơn bão gần nhất
