@@ -192,15 +192,9 @@ script:
         data:
           renotify: 0
         
-          vibrate:
-          - 300
-          - 100
-          - 400
+    
           badge: Thông báo từ nhà Hoan
-          timestamp: '%m%d%H%M%S'
-          actions:
-          - action: open_camera
-            title: Mở camera
+     
 xiaomi_aqara:
   discovery_retry: 3
   
