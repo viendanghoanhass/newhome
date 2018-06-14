@@ -179,12 +179,22 @@ automation: !include automations.yaml
 script: 
   thongbaohoan:
     sequence:
-      - service: notify.thongbao
+    - service: notify.thongbao
+      data:
+        title: Thông báo từ nhà Hoan
+        message: Có chuyển động ở cửa
         data:
-          message: "Thông báo từ nhà Hoan"
-        data:
-          data:
-            tag: 'notification-about-sensor'
+          renotify: 0
+        
+          vibrate:
+          - 300
+          - 100
+          - 400
+          badge: Thông báo từ nhà Hoan
+          timestamp: '%m%d%H%M%S'
+          actions:
+          - action: open_camera
+            title: Mở camera
 xiaomi_aqara:
   discovery_retry: 3
   
