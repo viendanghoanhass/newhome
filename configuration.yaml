@@ -189,6 +189,9 @@ script:
       data:
         title: Thông báo từ nhà Hoan
         message: Có chuyển động ở cửa
+        target:
+          - unnamed device
+          - unnamed device_2
         data:
           renotify: 0
         
