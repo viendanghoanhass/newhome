@@ -164,6 +164,11 @@ group:
       - sensor.device1
       - sensor.device2
       - sensor.device3
+  climateout:
+    name: Thời tiết bên ngoài
+    view: yes
+    entities:
+      - group.climate
   climate:
     name: Thời tiết bên ngoài
     view: no
