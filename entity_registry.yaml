@@ -18,3 +18,19 @@ light.gateway_light_7811dcb7d54a:
   name:
   platform: xiaomi_aqara
   unique_id: rgb7811dcb7d54a
+binary_sensor.motion_sensor_158d00021358ca:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00021358ca
+binary_sensor.motion_sensor_158d00022889df:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00022889df
+binary_sensor.motion_sensor_158d000223ee38:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000223ee38
+media_player.kdl43w800c:
+  name:
+  platform: cast
+  unique_id: 98e1a8f5-0189-b2f8-5659-e4701e9db72c

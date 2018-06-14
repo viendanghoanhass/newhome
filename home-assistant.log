@@ -1,11 +1,422 @@
-2018-06-13 14:20:42 ERROR (Thread-2) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:20:56 WARNING (MainThread) [homeassistant.setup] Setup of config is taking over 10 seconds.
-2018-06-13 14:21:25 WARNING (Thread-16) [netdisco.ssdp] Error fetching description at http://192.168.0.1:49152/InternetGatewayDevice.xml
-2018-06-13 14:23:36 ERROR (Thread-6) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:25:31 ERROR (Thread-10) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:25:48 ERROR (Thread-3) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:26:02 ERROR (Thread-17) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:28:04 ERROR (Thread-9) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:28:18 ERROR (Thread-10) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:28:42 ERROR (Thread-5) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
-2018-06-13 14:28:59 ERROR (Thread-21) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 67 and 76.
+2018-06-14 09:40:58 ERROR (Thread-2) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:41:05 ERROR (Thread-3) [xiaomi_gateway] Got error element in data {"error":"No device"}
+2018-06-14 09:41:05 ERROR (Thread-3) [xiaomi_gateway] Got error element in data {"error":"No device"}
+2018-06-14 09:41:05 ERROR (Thread-3) [xiaomi_gateway] Not a valid device. Check the mac adress and update the firmware.
+2018-06-14 09:41:13 WARNING (MainThread) [homeassistant.setup] Setup of config is taking over 10 seconds.
+2018-06-14 09:47:04 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:47:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:47:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:47:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:48:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:48:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:48:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:48:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:49:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:49:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:49:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:49:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:50:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:50:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:50:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:51:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:51:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:51:21 ERROR (Thread-7) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:51:24 ERROR (Thread-3) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:51:24 WARNING (MainThread) [homeassistant.components.group] remove:Group 'all_scripts' doesn't exist!
+2018-06-14 09:51:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:51:49 ERROR (Thread-13) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:51:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:51:52 ERROR (Thread-21) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:52:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:52:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:52:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:52:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:52:56 ERROR (Thread-11) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "data". Check lines 182 and 184.
+2018-06-14 09:52:56 ERROR (Thread-11) [homeassistant.util.yaml] YAML file /home/homeassistant/.homeassistant/configuration.yaml contains duplicate key "sensor". Check lines 71 and 80.
+2018-06-14 09:52:59 ERROR (MainThread) [homeassistant.core] Invalid service data for notify.thongbao: required key not provided @ data['message']. Got None
+2018-06-14 09:53:09 ERROR (MainThread) [homeassistant.core] Invalid service data for notify.thongbao: required key not provided @ data['message']. Got None
+2018-06-14 09:53:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:53:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:53:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:53:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:54:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:54:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:54:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:55:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:55:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:55:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:55:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:56:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:56:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:56:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:56:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:57:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:57:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:57:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:57:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:58:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:58:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:58:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:59:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:59:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:59:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 09:59:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:00:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:00:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:00:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:00:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:01:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:01:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:01:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:01:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:02:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:02:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:02:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:03:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:03:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:03:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:03:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:04:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:04:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:04:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:04:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:05:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:05:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:05:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:05:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:06:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:06:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:06:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:07:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:07:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:07:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:07:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:08:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:08:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:08:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:08:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:09:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:09:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:09:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:09:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:10:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:10:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:10:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:11:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:11:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:11:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:11:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:12:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:12:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:12:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:12:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:13:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:13:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:13:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:13:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:14:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:14:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:14:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:15:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:15:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:15:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:15:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:16:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:16:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:16:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:16:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:17:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:17:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:17:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:17:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:18:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:18:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:18:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:19:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:19:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:19:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:19:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:20:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:20:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:20:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:20:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:21:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:21:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:21:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:21:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:22:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:22:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:22:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:23:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:23:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:23:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:23:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:24:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:24:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:24:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:24:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:25:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:25:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:25:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:25:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:26:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:26:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:26:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:27:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:27:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:27:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:27:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:28:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:28:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:28:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:28:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:29:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:29:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:29:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:29:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:30:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:30:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:30:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:31:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:31:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:31:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:31:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:32:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:32:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:32:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:32:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:33:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:33:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:33:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:33:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:34:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:34:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:34:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:35:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:35:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:35:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:35:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:36:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:36:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:36:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:36:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:37:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:37:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:37:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:37:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:38:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:38:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:38:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:39:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:39:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:39:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:39:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:40:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:40:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:40:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:40:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:41:09 ERROR (MainThread) [homeassistant.components.updater] Could not contact Home Assistant Update to check for updates
+2018-06-14 10:41:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:41:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:41:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:41:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:42:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:42:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:42:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:43:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:43:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:43:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:43:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:44:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:44:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:44:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:44:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:45:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:45:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:45:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:45:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:46:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:46:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:46:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:47:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:47:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:47:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:47:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:48:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:48:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:48:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:48:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:49:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:49:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:49:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:49:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:50:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:50:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:50:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:51:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:51:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:51:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:51:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:52:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:52:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:52:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:52:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:53:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:53:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:53:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:53:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:54:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:54:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:54:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:55:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:55:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:55:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:55:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:56:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:56:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:56:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:56:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:57:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:57:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:57:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:57:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:58:07 ERROR (MainThread) [homeassistant.core] Invalid service data for notify.thongbao: required key not provided @ data['message']. Got None
+2018-06-14 10:58:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:58:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:58:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:59:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:59:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:59:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 10:59:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:00:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:00:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:00:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:00:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:01:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:01:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:01:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:01:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:02:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:02:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:02:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:03:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:03:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:03:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:03:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:04:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:04:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:04:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:04:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:05:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:05:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:05:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:05:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:06:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:06:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:06:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:07:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:07:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:07:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:07:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:08:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:08:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:08:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:08:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:09:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:09:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:09:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:09:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:10:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:10:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:10:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:11:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:11:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:11:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:11:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:12:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:12:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:12:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:12:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:13:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:13:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:13:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:13:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:14:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:14:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:14:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:15:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:15:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:15:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:15:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:16:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:16:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:16:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:16:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:17:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:17:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:17:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:17:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:18:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:18:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:18:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:19:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:19:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:19:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:19:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:20:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:20:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:20:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:20:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:21:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:21:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:21:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:21:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:22:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:22:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:22:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:23:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:23:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:23:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:23:47 ERROR (MainThread) [aiohttp.access] Error in logging
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 502, in __get__
+    return inst._cache[self.name]
+KeyError: 'remote'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 466, in log
+    for key, value in fmt_info:
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 458, in <genexpr>
+    for key, method in self._methods)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 416, in _format_a
+    ip = request.remote
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/helpers.py", line 504, in __get__
+    val = self.wrapped(inst)
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_request.py", line 332, in remote
+    peername = self.transport.get_extra_info('peername')
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 306, in get_extra_info
+    return self._ssl_protocol._get_extra_info(name, default)
+  File "/usr/lib/python3.5/asyncio/sslproto.py", line 546, in _get_extra_info
+    return self._transport.get_extra_info(name, default)
+AttributeError: 'NoneType' object has no attribute 'get_extra_info'
+2018-06-14 11:23:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:24:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:24:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:24:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:24:55 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:25:11 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:25:27 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:25:43 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:25:59 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:26:15 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:26:31 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:26:47 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:27:03 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:27:19 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:27:35 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:27:51 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:28:07 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:28:23 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
+2018-06-14 11:28:39 ERROR (MainThread) [homeassistant.components.cloud] Error fetching Cognito keyset: 
