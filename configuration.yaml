@@ -203,4 +203,8 @@ xiaomi_aqara:
 
     - key: 7zx1bi6pzmnsvwwk
     
-
+notify:
+  - name: thongbao
+    platform: html5
+    gcm_api_key: 'AAAAuvI_nzI:APA91bFrxToer5XIJmXlQySBgKjM_uN-Lzsmkrfp0MPBVhPGk8jIz2GxUp0Zuk6ps0WUw4QeBsgj7fQ6GXolD6ZvaM3KsrVoLqUKgOgrAPgXCGMDPGZtyxYqgIlGAuesQfor0xmqTWj4'
+    gcm_sender_id: '802928172850'
