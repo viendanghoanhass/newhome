@@ -69,8 +69,8 @@ map:
 sun:
 
 # Weather prediction
-sensor:
-  - platform: yr
+
+
 
 # Text to speech
 tts:
@@ -79,6 +79,7 @@ tts:
 # Cloud
 cloud:
 sensor:
+  - platform: yr
   - platform: template
     sensors:
       device1:
