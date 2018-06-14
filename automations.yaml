@@ -1,1 +1,18 @@
-[]
+- id: '1528978833070'
+  alias: 'Báo động '
+  trigger:
+  - entity_id: binary_sensor.motion_sensor_158d00021358ca
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d000223ee38
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d00022889df
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: xiaomi_aqara.play_ringtone
