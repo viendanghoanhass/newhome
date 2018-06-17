@@ -1,5 +1,47 @@
-- id: '1528978833070'
-  alias: 'Báo động '
+- alias: 'Báo động trong nhà'
+  trigger:
+  - entity_id: binary_sensor.motion_sensor_158d00021358ca
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d000223ee38
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d00022889df
+    from: 'off'
+    platform: state
+    to: 'on'
+  
+  action:
+  - service: xiaomi_aqara.play_ringtone
+    data:  
+      gw_mac: 7811DCB8D135
+      ringtone_id: 2
+      ringtone_vol: 100
+- alias: 'Báo khách'
+  trigger:
+  - entity_id: binary_sensor.motion_sensor_158d00021358ca
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d000223ee38
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.motion_sensor_158d00022889df
+    from: 'off'
+    platform: state
+    to: 'on'
+  
+  action:
+  - service: xiaomi_aqara.play_ringtone
+    data:  
+      gw_mac: 7811DCB8D135
+      ringtone_id: 10
+      ringtone_vol: 40
+- id: '1529059588611'
+  alias: Tự động báo động
   trigger:
   - entity_id: binary_sensor.motion_sensor_158d00021358ca
     from: 'off'
@@ -15,4 +57,27 @@
     to: 'on'
   condition: []
   action:
-  - service: xiaomi_aqara.play_ringtone
+  - service: switch.turn_on
+    entity_id: switch.cong_tac_bao_ong
+  - service: switch.turn_on
+    entity_id: switch.en_cua
+- id: '1529060426231'
+  alias: Tự động mở đèn khi trời tối
+  trigger:
+  - entity_id: sun.sun
+    from: 'above_horizon'
+    platform: state
+    to: 'below_horizon'
+  condition: []
+  action:
+  - service: switch.turn_on
+    entity_id: switch.en_cua
+- id: '1529060576107'
+  alias: Tự động tắt đèn khi trời sáng
+  trigger:
+  - at: '23:00:00'
+    platform: time
+  condition: []
+  action:
+  - service: switch.turn_off
+    entity_id: switch.en_cua

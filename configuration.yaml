@@ -21,7 +21,13 @@ frontend:
 
 # Enables configuration UI
 config:
-
+mqtt:
+  broker: 192.168.1.62
+  port: 1883
+  username: homeassistant
+  password: viendanghoan2018
+  protocol: 3.1.1
+  
 http:
   base_url: viendanghoan.duckdns.org
   ssl_certificate: /home/homeassistant/dehydrated/certs/viendanghoan.duckdns.org/fullchain.pem
@@ -157,6 +163,25 @@ group:
       - group.climate
       - group.anninh
       - script.thongbaohoan
+      - group.den
+      - group.caidat
+
+  caidat:
+    name: Cài đặt tự động
+    view: no
+    entities:
+      - automation.bao_khach
+      - automation.tu_ong_bao_ong
+      - automation.bao_ong_trong_nha
+      - automation.tu_ong_mo_en_khi_troi_toi
+      - automation.tu_ong_tat_en_khi_troi_sang
+      
+  den:
+    name: Đèn
+    view: no
+    entities:
+      - switch.en_cua
+      
   anninh:
     name: An ninh nhà
     view: no
@@ -164,6 +189,7 @@ group:
       - sensor.device1
       - sensor.device2
       - sensor.device3
+      - switch.cong_tac_bao_ong
   climateout:
     name: Thời tiết bên ngoài
     view: yes
@@ -182,21 +208,37 @@ group:
       - sensor.dark_sky_nearest_storm_distance
       - sensor.weathertoday
 automation: !include automations.yaml
-script: 
-  thongbaohoan:
-    sequence:
-    - service: notify.thongbao
-      data:
-        title: Thông báo từ nhà Hoan
-        message: Có chuyển động ở cửa
-        target:
-          - unnamed device
-          - unnamed device_2
-        data:
-          renotify: 0
+switch:
+  - platform: mqtt
+    name: Đèn cửa
+    state_topic: "relay/dencuastate"
+    command_topic: "relay/dencua"
+    payload_on: "1"
+    payload_off: "0"
+    qos: 0
+    retain: true
+  - platform: mqtt
+    name: Công tắc báo động
+    state_topic: "relay/baodongstate"
+    command_topic: "relay/baodong"
+    payload_on: "1"
+    payload_off: "0"
+    qos: 0
+    retain: true
+#script: 
+ # thongbaohoan:
+  #  sequence:
+   # - service: notify.thongbao
+    #  data:
+     #   title: Thông báo từ nhà Hoan
+      #  message: Có chuyển động ở cửa
+       
+
+       # data:
+        #  renotify: 0
         
     
-          badge: Thông báo từ nhà Hoan
+         # badge: Thông báo từ nhà Hoan
      
 xiaomi_aqara:
   discovery_retry: 3
@@ -205,8 +247,8 @@ xiaomi_aqara:
 
     - key: 7zx1bi6pzmnsvwwk
     
-notify:
-  - name: thongbao
-    platform: html5
-    gcm_api_key: 'AAAAuvI_nzI:APA91bFrxToer5XIJmXlQySBgKjM_uN-Lzsmkrfp0MPBVhPGk8jIz2GxUp0Zuk6ps0WUw4QeBsgj7fQ6GXolD6ZvaM3KsrVoLqUKgOgrAPgXCGMDPGZtyxYqgIlGAuesQfor0xmqTWj4'
-    gcm_sender_id: '802928172850'
+#otify:
+ # - name: thongbao
+  #  platform: html5
+   # gcm_api_key: 'AAAAuvI_nzI:APA91bFrxToer5XIJmXlQySBgKjM_uN-Lzsmkrfp0MPBVhPGk8jIz2GxUp0Zuk6ps0WUw4QeBsgj7fQ6GXolD6ZvaM3KsrVoLqUKgOgrAPgXCGMDPGZtyxYqgIlGAuesQfor0xmqTWj4'
+    #gcm_sender_id: '802928172850'
