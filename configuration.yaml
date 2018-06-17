@@ -246,34 +246,7 @@ xiaomi_aqara:
   gateways:
 
     - key: 7zx1bi6pzmnsvwwk
-input_number:
-  amluong:
-    name: Âm lượng chuông báo khách
-    initial: 40
-    min: 0
-    max: 100
-    step: 1
-input_select:
-  tiengchuong:
-    name: Tiếng chuông báo động
-    options:
-     - 0
-     - 1
-     - 2
-     - 3
-     - 4
-     - 5
-     - 6
-     - 7
-     - 8
-  
-    initial: 2
-    icon: mdi:alarm-multiple
-input_datetime:
-  giotatden:
-    name: Giờ tắt đèn
-    has_date: false
-    has_time: true
+
 #otify:
  # - name: thongbao
   #  platform: html5
