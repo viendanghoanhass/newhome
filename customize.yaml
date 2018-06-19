@@ -12,3 +12,7 @@ sun.sun:
   friendly_name: Mặt trời
 sensor.dark_sky_nearest_storm_distance:
   friendly_name: Cơn bão gần nhất
+automation.tu_ong_bao_ong:
+  friendly_name: Báo trộm hú vùng cửa
+automation.bao_ong_trong_nha:
+  friendly_name: Báo trộm trong nhà

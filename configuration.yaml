@@ -15,7 +15,8 @@ homeassistant:
 
 # Show links to resources in log and frontend
 introduction:
-
+ifttt:
+  key: m7tn5hLKlHs3oWmzFcBEXbhmPyewZgBiAnwYZtC-jgc
 # Enables the frontend
 frontend:
 
@@ -85,7 +86,14 @@ tts:
 # Cloud
 cloud:
 sensor:
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
   - platform: yr
+  - platform: mqtt
+    name: Cảm biến quang laser
+    state_topic: "sensor/laser"
   - platform: template
     sensors:
       device1:
@@ -171,10 +179,15 @@ group:
     view: no
     entities:
       - automation.bao_khach
+      - input_number.amluong
+      - automation.bao_trom_laser
       - automation.tu_ong_bao_ong
       - automation.bao_ong_trong_nha
+      - input_select.tiengchuong
       - automation.tu_ong_mo_en_khi_troi_toi
-      - automation.tu_ong_tat_en_khi_troi_sang
+      - automation.tu_ong_tat_en_khi_en_gio
+      - input_datetime.giotatden
+     
       
   den:
     name: Đèn
@@ -189,7 +202,9 @@ group:
       - sensor.device1
       - sensor.device2
       - sensor.device3
+      - sensor.cam_bien_quang_laser
       - switch.cong_tac_bao_ong
+      - switch.cong_tac_laser
   climateout:
     name: Thời tiết bên ngoài
     view: yes
@@ -225,7 +240,23 @@ switch:
     payload_off: "0"
     qos: 0
     retain: true
-#script: 
+  - platform: mqtt
+    name: Công tắc laser
+    state_topic: "relay/laserstate"
+    command_topic: "relay/laser"
+    payload_on: "0"
+    payload_off: "1"
+    qos: 0
+    retain: true
+script:
+  ifttt_notify:
+    sequence:
+      - service: ifttt.trigger
+        data_template: {"event":"thongbao", "value1":"{{ value1 }}"}
+
+
+
+ 
  # thongbaohoan:
   #  sequence:
    # - service: notify.thongbao
@@ -252,3 +283,31 @@ xiaomi_aqara:
   #  platform: html5
    # gcm_api_key: 'AAAAuvI_nzI:APA91bFrxToer5XIJmXlQySBgKjM_uN-Lzsmkrfp0MPBVhPGk8jIz2GxUp0Zuk6ps0WUw4QeBsgj7fQ6GXolD6ZvaM3KsrVoLqUKgOgrAPgXCGMDPGZtyxYqgIlGAuesQfor0xmqTWj4'
     #gcm_sender_id: '802928172850'
+input_number:
+  amluong:
+    name: Âm lượng chuông báo khách
+    initial: 40
+    min: 0
+    max: 100
+    step: 1
+input_select:
+  tiengchuong:
+    name: Tiếng chuông báo động
+    options:
+     - 0
+     - 1
+     - 2
+     - 3
+     - 4
+     - 5
+     - 6
+     - 7
+     - 8
+  
+    initial: 2
+    icon: mdi:alarm-multiple
+input_datetime:
+  giotatden:
+    name: Giờ tắt đèn
+    has_date: false
+    has_time: true

@@ -1,4 +1,4 @@
-- alias: 'Báo động trong nhà'
+- alias: Báo động trong nhà
   trigger:
   - entity_id: binary_sensor.motion_sensor_158d00021358ca
     from: 'off'
@@ -12,14 +12,14 @@
     from: 'off'
     platform: state
     to: 'on'
-  
   action:
   - service: xiaomi_aqara.play_ringtone
-    data:  
+    data_template:
       gw_mac: 7811DCB8D135
-      ringtone_id: 2
+      ringtone_id: '{{states("input_select.tiengchuong")|int}}'
       ringtone_vol: 100
-- alias: 'Báo khách'
+  id: a85c6ecf9f804a00bf1529c16cc0693c
+- alias: Báo khách
   trigger:
   - entity_id: binary_sensor.motion_sensor_158d00021358ca
     from: 'off'
@@ -33,13 +33,13 @@
     from: 'off'
     platform: state
     to: 'on'
-  
   action:
   - service: xiaomi_aqara.play_ringtone
-    data:  
+    data_template:
       gw_mac: 7811DCB8D135
       ringtone_id: 10
-      ringtone_vol: 40
+      ringtone_vol: '{{states("input_number.amluong")|int}}'
+  id: c21c84fbc08f4b38aba42f3c1cd436e2
 - id: '1529059588611'
   alias: Tự động báo động
   trigger:
@@ -65,19 +65,93 @@
   alias: Tự động mở đèn khi trời tối
   trigger:
   - entity_id: sun.sun
-    from: 'above_horizon'
+    from: above_horizon
     platform: state
-    to: 'below_horizon'
+    to: below_horizon
   condition: []
   action:
   - service: switch.turn_on
     entity_id: switch.en_cua
-- id: '1529060576107'
-  alias: Tự động tắt đèn khi trời sáng
+- alias: Tự động tắt đèn khi đến giờ
   trigger:
-  - at: '23:00:00'
-    platform: time
-  condition: []
+    platform: template
+    value_template: '{{ states(''sensor.time'') == (states.input_datetime.giotatden.attributes.timestamp
+      | int | timestamp_custom(''%H:%M'', False)) }}'
   action:
   - service: switch.turn_off
     entity_id: switch.en_cua
+  id: f5864a4158bc458f9c18a716cc600467
+- id: '1529312246914'
+  alias: Báo trộm laser
+  trigger:
+  - entity_id: sensor.cam_bien_quang_laser
+    to: '0'
+    platform: state
+  condition:
+  - condition: state
+    entity_id: switch.cong_tac_laser
+    state: 'on'
+  action:
+  - service: switch.turn_on
+    entity_id: switch.en_cua
+  - service: switch.turn_on
+    entity_id: switch.cong_tac_bao_ong
+  - service: xiaomi_aqara.play_ringtone
+    data:
+      gw_mac: 7811DCB8D135
+      ringtone_id: 2
+      ringtone_vol: 100
+- id: '1529313211396'
+  alias: Báo khách mở thì tắt các báo trộm
+  trigger:
+  - entity_id: automation.bao_khach
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: automation.turn_off
+    entity_id: automation.bao_ong_trong_nha
+  - service: automation.turn_off
+    entity_id: automation.tu_ong_bao_ong
+  - service: automation.turn_off
+    entity_id: automation.bao_trom_laser
+- id: '1529313525347'
+  alias: Báo trộm laser thì mở công tắc laser
+  trigger:
+  - entity_id: automation.bao_trom_laser
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: switch.turn_on
+    entity_id: switch.cong_tac_laser
+- id: '1529313630507'
+  alias: Tắt báo trộm laser thì tắt công tắc laser
+  trigger:
+  - entity_id: automation.bao_trom_laser
+    from: 'on'
+    platform: state
+    to: 'off'
+
+  condition: []
+  action:
+  - service: switch.turn_off
+    entity_id: switch.cong_tac_laser
+
+
+
+
+- alias: Thong bao ve dien thoai Hoan
+  trigger:
+  - platform: state
+    from: 'off'
+    to: 'on'
+    entity_id: switch.en_cua
+    
+  action:
+    service: script.ifttt_notify
+    data:
+      value1: 'Đèn cửa vừa mở'
+      
